@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <title>北島農園</title>
+        <meta name="description" content="新鮮おいしい野菜をお届けします">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.jpg" alt="北島農園"></a>
+                <a href="index.html"><h1>北島農園</h1></a>
+            </div>
+            <ul>
+                <li><a href="whatsnew.html">お知らせ</a></li>
+                <li><a href="about.html">農園紹介</a></li>
+                <li><a href="vegetables.html">北島農園の野菜</a></li>
+                <li><a href="order.html">ご注文</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+            <div class="header_img">
+                <img src="img/ordertop.jpg">
+            </div>
+        </div>    
+            <div class="title">
+            <h1>現在販売中のお野菜</h1>
+            </div>
+            <div class="wrapper grid">
+                <div class="item">
+                    <img src="img/tomato2.jpg" alt="トマト">
+                    <p>トマト　4kg箱  2,000円</p>
+                </div>
+                <div class="item">
+                    <img src="img/cherrytomato2.jpg" alt="ミニトマト">
+                    <p>ミニトマト　200g入袋  250円</p>
+                </div>
+                <div class="item">
+                    <img src="img/brusselssprouts.jpg" alt="芽キャベツ">
+                    <p>芽キャベツ　100g入袋  200円</p>
+                </div>
+                </div>
+                <div class="contact-form">
+                    <form action="" method="POST">
+                        <p>ご注文はこちらから</p>
+                <div class="item">
+                    <label class="label">お名前</label>
+                    <input class="inputs" type="text" name="name">
+                  </div>
+                  
+                  <div class="item">
+                    <label class="label">メールアドレス</label>
+                    <input class="inputs" type="email" name="email">
+                  </div>
+
+                  <div class="item">
+                    <label class="label">郵便番号</label>
+                    <input class="inputs" type="text" name="postal-code">
+                  </div>
+
+                  <div class="item">
+                    <label class="label">住所</label>
+                    <input class="inputs" type="text" name="address">
+                  </div>
+                  
+                  <div class="item">
+                    <label class="label">電話番号</label>
+                    <input class="inputs" type="text" name="tel">
+                  </div>
+
+                  <div class="item">
+                    <label class="label">配達希望日</label>
+                    <input type="date" name="calendar" max="9999-12-31">
+                  </div>
+
+                  <div class="item">
+                    <label class="label">配達希望時間</label>
+                    <select name="time">
+                        <option value="">-</option>
+                        <option value="1">午前中(8～12時)</option>
+                        <option value="2">14～16時</option>
+                        <option value="3">16～18時</option>
+                        <option value="4">18～20時</option>
+                        <option value="5">20～21時</option>
+                    </select>
+                  </div>
+                  <div class="item">
+                    <label class="label">商品選択</label>
+                    <select name="goods">
+                        <option value="">-</option>
+                        <option value="1">トマト(4kg)</option>
+                        <option value="2">ミニトマト(200g)</option>
+                        <option value="3">芽キャベツ(100g)</option>
+                    </select>
+                  </div>
+                  
+                  <div class="item">
+                <label class="label">注文数</label>
+                  <select name="number">
+                    <option value="">-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </select>
+                   </div>
+                  
+                  <div class="item">
+                    <label class="label">備考</label>
+                    <textarea class="inputs"></textarea>
+                  </div>
+                
+                  <div class="btn-area">
+                    <input type="submit" value="送信">
+                  </div>
+                </div>
+    </div>
+    </body>
+</html>
